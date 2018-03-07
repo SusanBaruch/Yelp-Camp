@@ -1,0 +1,16 @@
+<% include partials/header %>
+
+<h1>you fell in love with my dog: <%= thingVar.toUpperCase(); %> </h1>       
+
+<% if (thingVar.toLowerCase()==="rusty"){ %>
+    <p>Good choice!</p>
+    <% } else { %>
+    <p>bad choice!!! you should have said rusty!</p>
+<% } %>
+
+<p>THIS is the love.ejs file</p> 
+
+<% include partials/footer %>
+
+<!-- <% %> - javascript statements - logic statements,
+<%= %> - to add something to html, a return value or a variable  -->

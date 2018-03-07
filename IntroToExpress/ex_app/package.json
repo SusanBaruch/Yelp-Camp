@@ -1,0 +1,15 @@
+{
+  "name": "ex_app",
+  "version": "1.0.0",
+  "description": "exercise 2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Susan Baruch",
+  "license": "ISC",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "express": "^4.15.2"
+  }
+}
